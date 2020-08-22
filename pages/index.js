@@ -18,18 +18,18 @@ export default function Home() {
         </p>
 
         <p className="description">
-         I do software dev, research based projects ranging on machine vision, sensors, etc. 
+         I do software dev, research based projects on machine vision and sensors. 
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Projects &rarr;</h3>
-            <p>Small projects related to web dev, machine learning and other stuff.</p>
+          <a href="/projects" className="card">
+            <h3>Projects</h3>
+            <p>Small projects on software dev, SaaS</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/resume" className="card">
+            <h3>Resume</h3>
+            <p>Just in case if you're wondering =)</p>
           </a>
 
         </div>
@@ -169,7 +169,7 @@ export default function Home() {
           height: 1em;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 1000px) {
           .grid {
             width: 100%;
             flex-direction: column;
